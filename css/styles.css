@@ -113,6 +113,10 @@ button {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--first-logo-color);
+  color: #ffffff;
+}
+.hero-btn {
+  color: var(--first-logo-color);
 }
 /* Benefits */
 
@@ -212,6 +216,10 @@ button {
 }
 /* Portfolio */
 .portfolio-btn:hover,
-.portfolio-btn:hover {
+.portfolio-btn:focus {
   background-color: var(--first-logo-color);
+  color: #ffffff;
+}
+.portfolio-btn {
+  color: var(--first-logo-color);
 }
