@@ -13,6 +13,10 @@
   --footer-background: #2e2f42;
   --footer-logo-color: #f4f4fd;
   --header-logo-color: #2e2f42;
+  --hero-btn-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --portfolio-btn-background: #f4f4fd;
+  --portfolio-btn-border-color: #e7e9fc;
 }
 .visually-hidden {
   position: absolute;
@@ -85,6 +89,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
 .addr-item-link:hover,
 .addr-item-link:focus {
@@ -110,19 +115,13 @@ button {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--addr-active-color);
-  color: #ffffff;
 }
 .hero-btn {
   background-color: var(--first-logo-color);
-  color: #ffffff;
-  width: 170px;
-  height: 51px;
-  left: 635px;
-  top: 432px;
+  color: var(--hero-btn-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
@@ -212,7 +211,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer-text-color);
 }
 /* Portfolio */
 .portfolio-btn:hover,
@@ -222,13 +221,11 @@ button {
 }
 .portfolio-btn {
   color: var(--first-logo-color);
-  width: 116px;
-  height: 48px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--portfolio-btn-background);
+  border: 1px solid var(--portfolio-btn-border-color);
   border-radius: 4px;
   font-family: "Roboto";
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -243,7 +240,6 @@ button {
   letter-spacing: 0.02em;
 }
 .portfolio-list-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
